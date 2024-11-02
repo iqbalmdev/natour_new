@@ -1,0 +1,15 @@
+importing parentComp//
+
+
+const childComp = (props)=>{
+const {parentProps,childCallBack} = props;
+return (
+    <div>
+{parentProps}
+
+<button onClick ={()=>childCallBack("30")}>click to update parent state</button>
+    <div>
+)
+}
+
+export default childComp

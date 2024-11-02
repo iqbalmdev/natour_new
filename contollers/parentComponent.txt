@@ -1,0 +1,16 @@
+
+importing useState//
+const parentComp = ()=>{
+const [state,setState] = useState("Parent value)
+    const getChildValue = (inp)=>{
+return value;
+    }
+    return(
+        <div>
+        {getChildValue}
+        <div>
+        <childComponenet parentProps={state}  childCallBack={getChildValue} />
+    )
+}
+
+export default parentComp;
